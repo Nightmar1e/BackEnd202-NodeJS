@@ -8,7 +8,7 @@
     "start": "node server.js",
     "dev": "nodemon server.js",
     "create" : "nodemon Creating_a_server.js",
-    "reqres" : "nodemon Requests_&_Responses.js"
+    "reqres" : "node Requests_Responses.js"
   },
   "keywords": [],
   "author": "",

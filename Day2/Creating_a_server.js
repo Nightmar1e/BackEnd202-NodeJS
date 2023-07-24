@@ -13,6 +13,6 @@ server.on('request', (request, response) => {
 
 // We use our server object again to add a 'listen' method to it.
 
-server.listen(3000, () => {
-    console.log("Server started on http://127.0.0.1:3000");
+server.listen(6000, () => {
+    console.log("Server started on http://127.0.0.1:6000");
 })
