@@ -7,9 +7,9 @@ const server = http.createServer((req, res) => {
 
   let filePath;
   if (req.url === '/') {
-    filePath = path.join(clientFolderPath, '/blog/index.html');
+    filePath = path.join(clientFolderPath, 'index.html');
   } else {
-    const urlPath = req.url === '/' ? '/blog/index.html' : `${req.url}.html`;
+    const urlPath = req.url === '/' ? 'index.html' : `${req.url}.html`;
     filePath = path.join(clientFolderPath, urlPath);
   }
 
